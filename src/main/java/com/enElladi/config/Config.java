@@ -1,6 +1,7 @@
-package config;
+package com.enElladi.config;
 
-import listeners.MessageListener;
+
+import com.enElladi.listeners.MessageListener;
 import net.dv8tion.jda.api.JDA;
 import net.dv8tion.jda.api.JDABuilder;
 import net.dv8tion.jda.api.entities.Guild;
@@ -10,6 +11,7 @@ import net.dv8tion.jda.api.requests.GatewayIntent;
 import java.util.List;
 
 public class Config {
+
     protected static final String GUILD_ID = "1439239459056124111";
 
     public static void jdaBuild() throws InterruptedException {

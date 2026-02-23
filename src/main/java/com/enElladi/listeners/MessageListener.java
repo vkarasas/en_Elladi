@@ -1,4 +1,4 @@
-package listeners;
+package com.enElladi.listeners;
 
 import net.dv8tion.jda.api.entities.channel.Channel;
 import net.dv8tion.jda.api.entities.channel.middleman.GuildChannel;

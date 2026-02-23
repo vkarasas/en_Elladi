@@ -1,4 +1,4 @@
-package config;
+package com.enElladi.config;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;

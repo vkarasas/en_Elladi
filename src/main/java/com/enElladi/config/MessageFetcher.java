@@ -35,7 +35,7 @@ public class MessageFetcher {
 
     private static void extractToJson(List<Map<String, Object>> channelListJson) {
         Gson gson = new GsonBuilder().setPrettyPrinting().create();
-        try (FileWriter writer = new FileWriter("discord_dump.json")){
+        try (FileWriter writer = new FileWriter("src/main/resources/discord_dump.json")){
             gson.toJson(channelListJson, writer);
             System.out.println("Saved all messages to discord_dump.json JSON:" +   channelListJson);
         } catch (IOException e) {

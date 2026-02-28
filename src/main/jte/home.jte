@@ -20,19 +20,23 @@
 
 <!-- Navigation -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-            data-bs-target="#mainNavbar" aria-controls="mainNavbar"
-            aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
+    <div class="container-fluid">
+        <a class="navbar-brand d-flex align-items-center" href="/home">ἔν Ἑλλάδι</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#mainNavbar" aria-controls="mainNavbar"
+                aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-    <div class="collapse navbar-collapse" id="mainNavbar">
-        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-                <a class="nav-link" href="/home">Home</a>
-            </li>
-        </ul>
+        <div class="collapse navbar-collapse" id="mainNavbar">
+<%--            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">--%>
+<%--                <li class="nav-item">--%>
+<%--                    <a class="nav-link" href="/home">Home</a>--%>
+<%--                </li>--%>
+<%--            </ul>--%>
+        </div>
     </div>
+
 </nav>
 
 <%--<!-- Main content -->--%>
@@ -52,7 +56,7 @@
                 <tr>
                     <td class="text-center">${count++}</td>
                     <td class="text-center">${channels.get(i).getName()}</td>
-                    <td class="text-center">${channels.get(i).getMessages().get(j).getContent()}</td>
+                    <td class="text-center"><a href="${channels.get(i).getMessages().get(j).getContent()}" target="_blank">${channels.get(i).getMessages().get(j).getContent()}</a></td>
                 </tr>
             @endfor
         @endfor

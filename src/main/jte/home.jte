@@ -1,4 +1,5 @@
 <%--@param gg.jte.Content content--%>
+@import com.enElladi.utils.HtmlUtils
 @param java.util.List<com.enElladi.models.Channel> channels
 @param int count = 1
 <!DOCTYPE html>
@@ -56,7 +57,11 @@
                 <tr>
                     <td class="text-center">${count++}</td>
                     <td class="text-center">${channels.get(i).getName()}</td>
-                    <td class="text-center"><a href="${channels.get(i).getMessages().get(j).getContent()}" target="_blank">${channels.get(i).getMessages().get(j).getContent()}</a></td>
+                    <td class="text-center">
+                        $unsafe{HtmlUtils.linkifyHttps(
+        channels.get(i).getMessages().get(j).getContent()
+    )}
+                    </td>
                 </tr>
             @endfor
         @endfor

@@ -17,6 +17,11 @@
         "id": "1439368821558476830",
         "author": "chiillywiilly",
         "content": "https://www.papoutsanis.gr/el/"
+      },
+      {
+        "id": "1538497304498274314",
+        "author": "chiillywiilly",
+        "content": "https://olon.care/el"
       }
     ]
   },
@@ -53,6 +58,49 @@
         "id": "1439410185637466192",
         "author": "chiillywiilly",
         "content": "https://paco-co.gr/"
+      }
+    ]
+  },
+  {
+    "id": "1538496772488429688",
+    "name": "φαγητό-ποτά",
+    "messages": [
+      {
+        "id": "1538496957075562627",
+        "author": "chiillywiilly",
+        "content": "https://www.violanta.gr/"
+      }
+    ]
+  },
+  {
+    "id": "1538499681540251709",
+    "name": "παιχνίδια",
+    "messages": [
+      {
+        "id": "1538503641311223858",
+        "author": "chiillywiilly",
+        "content": "πάζλ\nhttps://mosaicpuzzles.gr/"
+      },
+      {
+        "id": "1538507596812652574",
+        "author": "chiillywiilly",
+        "content": "διάφορα + ὑπερατού\nhttps://desyllas.gr/"
+      }
+    ]
+  },
+  {
+    "id": "1538502183929118730",
+    "name": "μηχανοκίνητα",
+    "messages": [
+      {
+        "id": "1538503062652715018",
+        "author": "chiillywiilly",
+        "content": "χειροποίητα αὐτοκίνητα - https://www.replicarhellas.com/"
+      },
+      {
+        "id": "1538508991573790801",
+        "author": "chiillywiilly",
+        "content": "Ἑλαιοσυλλέκτες - https://avgeros.gr/el/"
       }
     ]
   }
